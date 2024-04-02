@@ -21,6 +21,11 @@ class _BallPageState extends State<BallPage> {
         ),
         titleSpacing: 4,
       ),
+      body: Center(
+        child: Container(
+          child: Image.asset('images/ball1.png'),
+        ),
+      ),
     );
   }
 }
